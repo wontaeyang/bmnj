@@ -2045,6 +2045,10 @@ body {
     font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
   }
+  #bike-logo {
+    width: 200px;
+    height: 200px;
+  }
 }
 .footer-3 {
   background-color: #1B1F23;
