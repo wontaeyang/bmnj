@@ -1943,7 +1943,7 @@ body {
 }
 .content-8 {
   padding-top: 225px;
-  margin-top: -223px;
+  margin-top: 0px;
   padding-bottom: 170px;
 }
 @media (max-width: 767px) {
