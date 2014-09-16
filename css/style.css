@@ -2075,3 +2075,10 @@ body {
 .map {
   width: 100%;
 }
+
+.maps iframe{
+    pointer-events: none;
+}
+.hours span{
+  font-weight: bold;
+}
