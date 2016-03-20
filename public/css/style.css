@@ -42,7 +42,7 @@ textarea {
   font-size: 14px;
 }
 a {
-  color: #16a085;
+  color: #2980b9;
   text-decoration: none;
   -webkit-backface-visibility: hidden;
   -webkit-transition: 0.25s;
@@ -1736,8 +1736,8 @@ body {
   }
 }
 .content-7 {
-  padding-top: 180px;
-  padding-bottom: 190px;
+  padding-top: 140px;
+  padding-bottom: 140px;
   font-size: 16px;
   font-weight: normal;
   color: #7f8c8d;
@@ -1756,7 +1756,7 @@ body {
   font-weight: 700;
   line-height: 56px;
   letter-spacing: -3px;
-  margin-bottom: 95px;
+  margin-bottom: 40px;
 }
 @media (max-width: 767px) {
   .content-7 h3 {
@@ -2085,4 +2085,76 @@ body {
 }
 .hours span{
   font-weight: bold;
+}
+
+.services {
+  background-color: #1B1F23;
+  padding: 80px 0;
+}
+
+.service-header{
+  margin-bottom: 40px;
+}
+
+.card {
+  padding: 5px 40px !important;
+}
+
+.card p{
+  font-size: 16px;
+}
+
+.card i{
+  font-size: 42px;
+}
+
+.border-right {
+  border-right: 1px solid #ccc;
+}
+
+.border-left {
+  border-left: 1px solid #ccc;
+}
+
+.white {
+  color: white;
+}
+
+.blue {
+  color: #2980b9
+}
+
+.brands {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.pickup {
+  margin-top: 40px;
+}
+
+.callus {
+  margin-top: 40px;
+}
+
+.margin-bottom-large{
+  margin-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  .border-right {
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+  }
+  .card {
+    padding: 30px 30px !important;
+
+  }
+}
+
+@media (max-width: 979px) {
+}
+
+@media (max-width: 480px) {
+  
 }
