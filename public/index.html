@@ -109,14 +109,14 @@
       </div>
 
       <div class="pickup text-left col-sm-8 col-sm-offset-2">
-        <form class="form-horizontal" action="http://formspree.io/yds0205@gmail.com" method="POST">
+        <form class="form-horizontal" action="////formspree.io/yds0205@gmail.com" method="POST">
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" class="form-control" id="name" name="name">
+            <input type="text" class="form-control" id="name" name="name" required>
           </div>
           <div class="form-group">
             <label for="number">Phone Number</label>
-            <input class="form-control" type="tel" id="number" name="number">
+            <input class="form-control" type="tel" id="number" name="number" required>
           </div>
           <div class="form-group">
             <label for="email">E-mail</label>
@@ -124,7 +124,7 @@
           </div>
           <div class="form-group">
             <label for="time">Pickup Time</label>
-            <select class="form-control" name="time">
+            <select class="form-control" name="time" required>
               <option value="7:00 AM">7:00 AM</option>
               <option value="7:30 AM">7:30 AM</option>
               <option value="8:00 AM">8:00 AM</option>
@@ -137,7 +137,7 @@
             </div>
           <div class="form-group">
             <label for="address">Address</label>
-            <textarea class="form-control" id="address" name="address" rows="3"></textarea>
+            <textarea class="form-control" id="address" name="address" rows="3" required></textarea>
           </div>
           <div class="form-group">
             <input type="submit" value="Send" class="btn btn-primary pull-right">Request Pickup</input>
